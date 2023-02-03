@@ -1,0 +1,9 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    width: 100%;
+}
+
+.container__perfil {
+    border: none;
+    border-radius: 50%;
+}
