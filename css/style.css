@@ -9,30 +9,42 @@ body {
     color: hsl(229, 23%, 23%);
     font-family: 'Kumbh Sans', sans-serif;
     text-align: center;
-}
-
-.container__perfil {
-    border: none;
-    border-radius: 50%;
+    font-size: 18px;
 }
 
 .container {
+    width: 70vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 25vh 0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 0.9em;
 }
 
+.bg-card {
+    background-image: url(../images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 70vw;
+    height: 100px;
+}
+
+.container__perfil {
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    width: 5em;
+}
 .container__cardperfil {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
-    border-radius: 10px;
-    background-color: #ffffff;
-    font-size: 0.9em;
 }
 
 .card-paragrafo {
